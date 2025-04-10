@@ -1,4 +1,4 @@
-package demo.test;
+package pom.pages;
 
 import java.time.Duration;
 import java.util.List;
@@ -72,25 +72,25 @@ public class Fitpage_pom {
     	TestListener.objectRepo().log(Status.FAIL, "Step info3 ");
     	wait.until(ExpectedConditions.elementToBeClickable(ContinueBtn));
     	
-//    	 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//    	wait.until(ExpectedConditions.elementToBeClickable(EmailAddressField));
-//    	System.out.println("Enetr Email ID");
-//        EmailAddressField.sendKeys("Test12@gmail.com");
-//        System.out.println("Email ID Entered");
-//        System.out.println("Click on Get OTP button");
-//        GetOptBtn.click();
-//        try {
-//			Thread.sleep(5000);
-//		} catch (InterruptedException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//        String otp = "1234";
-//        for (int i = 0; i < otp.length(); i++) {
-//        	OtpField.get(i).sendKeys(Character.toString(otp.charAt(i)));
-//        }
-//        wait.until(ExpectedConditions.elementToBeClickable(VerifyOtpBtn));
-//        VerifyOtpBtn.click();
+    	 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    	wait.until(ExpectedConditions.elementToBeClickable(EmailAddressField));
+    	System.out.println("Enetr Email ID");
+        EmailAddressField.sendKeys("Test12@gmail.com");
+        System.out.println("Email ID Entered");
+        System.out.println("Click on Get OTP button");
+        GetOptBtn.click();
+        try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+        String otp = "1234";
+        for (int i = 0; i < otp.length(); i++) {
+        	OtpField.get(i).sendKeys(Character.toString(otp.charAt(i)));
+        }
+        wait.until(ExpectedConditions.elementToBeClickable(VerifyOtpBtn));
+        VerifyOtpBtn.click();
     }
     
     

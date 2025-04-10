@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-10T08:39:05 IST" name="Default suite" finished-at="2025-04-10T08:39:18 IST" duration-ms="12649">
+  <suite started-at="2025-04-10T09:50:06 IST" name="Default suite" finished-at="2025-04-10T09:50:59 IST" duration-ms="52667">
     <groups>
     </groups>
-    <test started-at="2025-04-10T08:39:05 IST" name="Default test" finished-at="2025-04-10T08:39:18 IST" duration-ms="12649">
+    <test started-at="2025-04-10T09:50:06 IST" name="Default test" finished-at="2025-04-10T09:50:59 IST" duration-ms="52667">
       <class name="demo.test.Flipkart_Test">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:demo.test.Flipkart_Test@121314f7]" started-at="2025-04-10T08:39:05 IST" name="setUp" finished-at="2025-04-10T08:39:08 IST" duration-ms="2679" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:demo.test.Flipkart_Test@121314f7]" started-at="2025-04-10T09:50:06 IST" name="setUp" finished-at="2025-04-10T09:50:23 IST" duration-ms="17285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="flipkart_Assignment()[pri:0, instance:demo.test.Flipkart_Test@121314f7]" started-at="2025-04-10T08:39:08 IST" name="flipkart_Assignment" finished-at="2025-04-10T08:39:17 IST" duration-ms="9833" status="PASS">
+        <test-method signature="flipkart_Assignment()[pri:0, instance:demo.test.Flipkart_Test@121314f7]" started-at="2025-04-10T09:50:23 IST" name="flipkart_Assignment" finished-at="2025-04-10T09:50:59 IST" duration-ms="35202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flipkart_Assignment -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo.test.Flipkart_Test@121314f7]" started-at="2025-04-10T08:39:18 IST" name="tearDown" finished-at="2025-04-10T08:39:18 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:demo.test.Flipkart_Test@121314f7]" started-at="2025-04-10T09:50:59 IST" name="tearDown" finished-at="2025-04-10T09:50:59 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

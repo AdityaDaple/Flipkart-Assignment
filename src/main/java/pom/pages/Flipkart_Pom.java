@@ -1,4 +1,4 @@
-package demo.test;
+package pom.pages;
 
 import java.time.Duration;
 import java.util.List;

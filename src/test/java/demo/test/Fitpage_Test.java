@@ -10,6 +10,7 @@ import baseClass.BaseClass;
 import baseClass.ConfigrationManager;
 import baseClass.TestListener;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pom.pages.Fitpage_pom;
 @Listeners(TestListener.class)
 public class Fitpage_Test extends BaseClass {
 

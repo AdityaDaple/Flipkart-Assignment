@@ -5,9 +5,9 @@
     <classes>
       <class name="demo.test.Flipkart_Test">
         <methods>
+          <include name="flipkart_Assignment"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="mobile_Category_Listing_Page"/>
         </methods>
       </class> <!-- demo.test.Flipkart_Test -->
     </classes>

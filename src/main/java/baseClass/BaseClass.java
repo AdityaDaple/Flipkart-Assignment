@@ -11,8 +11,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 
-import demo.test.Fitpage_pom;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import pom.pages.Fitpage_pom;
 
 public class BaseClass {
 
