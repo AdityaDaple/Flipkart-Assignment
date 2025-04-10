@@ -10,7 +10,6 @@ import pom.pages.Flipkart_Pom;
 @Listeners(TestListener.class)
 
 public class Flipkart_Test extends BaseClass {
-	
 	@Test
 	public void flipkart_Assignment() throws InterruptedException {
 		Flipkart_Pom ref = new Flipkart_Pom(driver);
